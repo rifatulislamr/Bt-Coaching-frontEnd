@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
-import AllApps from "./pages/AllApps";
+import Dashboard from "./pages/Dashboard"
 import Analytics from "./pages/Analytics";
 import Authentication from "./pages/Authentication";
 import Build from "./pages/Build";
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <RootLayout>
       <Routes>
-        <Route path="/" element={<AllApps />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/authentication" element={<Authentication />} />
         <Route path="/stroage" element={<Stroage />} />
         <Route path="/settings" element={<Settings />} />

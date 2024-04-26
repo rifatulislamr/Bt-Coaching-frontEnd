@@ -15,23 +15,23 @@ const SubMenu = ({ data }) => {
         <data.icon size={23} className="min-w-max" />
         <p className="flex-1 capitalize">{data.name}</p>
         <IoIosArrowDown
-          className={` ${subMenuOpen && "rotate-180"} duration-200 `}
+          className={` ${subMenuOpen && "rotate-180"} duration-500 `}
         />
       </li>
       <motion.ul
         animate={
           subMenuOpen
             ? {
-                height: "fit-content",
-              }
+              height: "fit-content",
+            }
             : {
-                height: 0,
-              }
+              height: 0,
+            }
         }
         className="flex h-0 flex-col pl-14 text-[0.8rem] font-normal overflow-hidden"
       >
         {data.menus?.map((menu) => (
-          <li key={menu}>
+          <li className="hover:bg-gray-100 rounded-md" key={menu}>
             {/* className="hover:text-blue-600 hover:font-medium" */}
             <NavLink
               to={`/${data.name}/${menu}`}
