@@ -2,12 +2,13 @@ import React from 'react';
 import Card from './Card'; // Assuming Card component is in a separate file
 
 
+
 const CardList = () => {
     const cardData = [
-        { title: 'Student', content: 539, color: 'green', iconName: 'student' },
-        { title: 'Teacher', content: 20, color: 'red', iconName: 'teacher' },
-        { title: 'Attendance', content: 75, color: 'green', iconName: 'attendance' },
-        { title: 'Fees', content: 235410, color: 'red', iconName: 'money' },
+        { title: 'Student', content: 539, iconName: 'student' },
+        { title: 'Teacher', content: 20, iconName: 'teacher' },
+        { title: 'Attendance', content: 75, iconName: 'attendance' },
+        { title: 'Fees', content: 235410, iconName: 'money' },
 
     ];
     return (
