@@ -15,8 +15,7 @@ const Card = ({ item }) => {
                     }</span>
                     {title}</h2>
                 <p className='font-bold text-center mt-5 text-2xl'>{content}</p>
-                        <p>riad</p>
-                        <p>riad</p>
+                       
 
 
             </div>
