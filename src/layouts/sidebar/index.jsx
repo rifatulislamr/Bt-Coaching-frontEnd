@@ -68,47 +68,47 @@ const Sidebar = () => {
 
   const subMenusList = [
     {
-      name: "Student",
+      name: "student",
       icon: BsFillPersonFill,
       menus: ["List", "Uploading Photo", "Visiting List"],
     },
     {
-      name: "Attendance",
+      name: "attendance",
       icon: BsCheckCircleFill,
-      menus: ["List", "Individual  Attendance"],
+      menus: ["List", "Individual Attendance"],
     },
     {
-      name: "Setting",
+      name: "setting",
       icon: SlSettings,
       menus: ["Batch", "Group", "Institution", "Subject", "Course"],
     },
     {
-      name: "Teachers",
+      name: "teachers",
       icon: BsFillPersonLinesFill,
       menus: ["List", "Teacher Schedule"],
     },
     {
-      name: "Schedule",
+      name: "schedule",
       icon: BsCalendarPlusFill,
-      menus: ["Manage", "Weekly Schedule ", "Daily Schedule", " Schedule Generator", "Edit Schedule"],
+      menus: ["Manage", "Weekly Schedule ", "Daily Schedule", "Schedule Generator", "Edit Schedule"],
     },
     {
-      name: "Exam",
+      name: "exam",
       icon: BsExclamationCircle,
-      menus: ["Exam List", "Merit List ", " Individual Mark"],
+      menus: ["Exam List", "Merit List ", "Individual Mark"],
     },
     {
-      name: "Payment",
+      name: "payment",
       icon: BsPaypal,
       menus: ["Make Payment", "Student Payment", "Teacher Payment"],
     },
     {
-      name: "Transaction",
+      name: "transaction",
       icon: BsCurrencyExchange,
       menus: ["Add Transaction", "Bill List", "Biller", "Transaction List", "Salary", "Balance"],
     },
     {
-      name: "Billing",
+      name: "billing",
       icon: RiBuilding3Line,
       menus: ["My InVoice"],
     },
