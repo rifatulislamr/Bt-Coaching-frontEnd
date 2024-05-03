@@ -1,17 +1,16 @@
 import React from 'react'
 
-function FeesTodaySchedule() {
+function EventsNoticeBoard() {
     return (
         <>
-
-            <div className='grid  md:grid-cols-2 sm:grid-cols-1 mt-12 justify-between gap-8 mr-4'>
+            <div className='grid  md:grid-cols-2 sm:grid-cols-1 mt-12 justify-between gap-8 mr-4 '>
 
 
                 <div className='border-2 shadow-slate-900  bg-white  rounded-lg  text-slate-800 text-2xl font-serif'>
                     <div className='flex justify-between m-2 bg-slate-700  -mt-px rounded-b-2xl p-2 text-white'>
 
-                        <h1 className='p-2 font-serif font-bold'>Fees Collections</h1>
-                        <h1 className='p-2 mr-5 font-serif font-bold cursor-pointer'>Detais</h1>
+                        <h1 className='p-2 font-serif font-bold'>Events</h1>
+                        <h1 className='p-2 mr-5 font-serif font-bold text-lg cursor-pointer'>All Events</h1>
 
                     </div>
                     <p className='p-4 h-80  overflow-y-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nostrum voluptas, excepturi ab labore consequuntur possimus ducimus. Nisi eaque blanditiis magni nihil dolorem voluptate praesentium rem quaerat iure. Velit, facilis.
@@ -24,8 +23,8 @@ function FeesTodaySchedule() {
                 <div className='border-2 shadow-slate-900  bg-white  rounded-lg  text-slate-800 text-2xl font-serif'>
                     <div className='flex justify-between m-2 bg-slate-700  -mt-px rounded-b-2xl p-2 text-white'>
 
-                        <h1 className='p-2 font-serif font-bold'>Today's Schedule</h1>
-                        <h1 className='p-2 mr-5 font-serif font-bold text-lg cursor-pointer'>All Scheudle</h1>
+                        <h1 className='p-2 font-serif font-bold'>Notice Board</h1>
+                        <h1 className='p-2 mr-5 font-serif font-bold text-lg cursor-pointer'>More</h1>
 
                     </div>
                     <p className='p-4 h-80  overflow-y-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor adipisci voluptatem dolore, illum ullam, facilis aperiam placeat harum quasi ad reprehenderit ducimus odio deserunt. Nisi est fuga vel delectus!
@@ -36,12 +35,8 @@ function FeesTodaySchedule() {
                 </div>
 
             </div>
-
-
         </>
-
-
     )
 }
 
-export default FeesTodaySchedule
+export default EventsNoticeBoard

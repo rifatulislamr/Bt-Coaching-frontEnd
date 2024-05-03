@@ -6,7 +6,7 @@ const Card = ({ item }) => {
 
     return (
         <>
-            <div className={`card  shadow-2xl  hover:cursor-pointer h-auto rounded-xl p-6 bg-white border-2   hover:rounded-3xl hover:bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-700 hover:text-white hover:shadow-amber-300 hover:shadow-2xl`}>
+            <div className={`card  shadow-2xl  hover:cursor-pointer h-auto rounded-xl p-6 bg-white border-2   hover:rounded-3xl hover:bg-slate-700 hover:text-white hover:shadow-stone-800 hover:shadow-2xl`}>
 
                 <h2 className='text-2xl flex gap-2 items-center'>
                     <span className=''>{
@@ -15,7 +15,7 @@ const Card = ({ item }) => {
                     }</span>
                     {title}</h2>
                 <p className='font-bold text-center mt-5 text-2xl'>{content}</p>
-                       
+
 
 
             </div>

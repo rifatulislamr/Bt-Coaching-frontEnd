@@ -1,6 +1,7 @@
 
 import Alert from "../components/Dashboard/Alert/Alert";
 import DashboardCard from "../components/Dashboard/DashboardCard/DashboardCard";
+import EventsNoticeBoard from "../components/Dashboard/EventsNoticeBoard/EventsNoticeBoard";
 import FeesTodaySchedule from "../components/Dashboard/FeesAndTSchedule/FeesTodaySchedule";
 
 
@@ -13,6 +14,7 @@ const Dashboard = () => {
             <Alert />
             <DashboardCard />
             <FeesTodaySchedule />
+            <EventsNoticeBoard />
 
 
 
